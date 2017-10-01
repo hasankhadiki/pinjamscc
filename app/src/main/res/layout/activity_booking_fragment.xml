@@ -31,32 +31,33 @@
                     android:layout_height="wrap_content"
                     android:text="06.00"
                     android:textStyle="bold"
-                    android:textSize="24dp" />
+                    android:textSize="24dp"/>
 
-                <LinearLayout
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="27dp"
+                android:id="@+id/card_jam_akhir">
+
+                <TextView
+                    android:id="@+id/txt_line_sambung"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginTop="27dp"
-                    android:id="@+id/card_jam_akhir">
+                    android:text="- "
+                    android:textSize="18dp"/>
 
-                    <TextView
-                        android:id="@+id/txt_line_sambung"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="- "
-                        android:textSize="18dp">
+                <TextView
+                    android:id="@+id/txt_jamakhir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15.00"
+                    android:textSize="18dp"
+                    android:paddingTop="5dp"
+                    android:layout_toLeftOf="@id/txt_line_sambung"/>
 
-                    <TextView
-                        android:id="@+id/txt_jamakhir"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="15.00"
-                        android:textSize="18dp"
-                        android:paddingTop="5dp"
-                        android:layout_toLeftOf="@id/txt_line_sambung">
+            </LinearLayout>
 
-                </LinearLayout>
             </RelativeLayout>
 
             <LinearLayout
@@ -86,7 +87,7 @@
                     android:layout_height="wrap_content"
                     android:text="KISI ITS"
                     android:textStyle="bold"
-                    android:textSize="24dp" />
+                    android:textSize="24dp"/>
 
                 <TextView
                     android:id="@+id/txt_jamakhir"
@@ -118,14 +119,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-            android:text="Welcome party staff KISI 2017/2018"
+                android:text="Welcome party staff KISI 2017/2018"
                 android:paddingTop="15dp"
-                android:textSize="16dp"
-                />
+                android:textSize="16dp" />
 
         </RelativeLayout>
-
-
 
     </RelativeLayout>
 
