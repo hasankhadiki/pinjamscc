@@ -17,6 +17,7 @@
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/et_nrp"
             android:hint="NRP"
+            android:text="5215100071"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColorHint="@color/colorPrimary"
@@ -33,6 +34,7 @@
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/et_password"
             android:hint="Password"
+            android:text="1234567"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColorHint="@color/colorPrimary"
