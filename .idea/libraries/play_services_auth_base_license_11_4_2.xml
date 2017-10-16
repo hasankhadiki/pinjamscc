@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="play-services-auth-base-license-11.4.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.4.2.aar/8fc2a57f25f50602819ce0d349f5cb2e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.4.2.aar/8fc2a57f25f50602819ce0d349f5cb2e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

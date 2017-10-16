@@ -33,30 +33,30 @@
                     android:textStyle="bold"
                     android:textSize="24dp"/>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_marginTop="27dp"
-                android:id="@+id/card_jam_akhir">
-
-                <TextView
-                    android:id="@+id/txt_line_sambung"
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="- "
-                    android:textSize="18dp"/>
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="27dp"
+                    android:id="@+id/card_jam_akhir">
 
-                <TextView
-                    android:id="@+id/txt_jam_akhir"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="15.00"
-                    android:textSize="18dp"
-                    android:paddingTop="5dp"
-                    android:layout_toLeftOf="@id/txt_line_sambung"/>
+                    <TextView
+                        android:id="@+id/txt_line_sambung"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="- "
+                        android:textSize="18dp"/>
 
-            </LinearLayout>
+                    <TextView
+                        android:id="@+id/txt_jam_akhir"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="15.00"
+                        android:textSize="18dp"
+                        android:paddingTop="5dp"
+                        android:layout_toLeftOf="@id/txt_line_sambung"/>
+
+                </LinearLayout>
 
             </RelativeLayout>
 

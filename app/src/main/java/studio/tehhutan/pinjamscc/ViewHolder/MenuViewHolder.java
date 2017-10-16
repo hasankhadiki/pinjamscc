@@ -14,9 +14,8 @@ import studio.tehhutan.pinjamscc.R;
 public class MenuViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
 
-    public TextView txtNama;
-    public TextView txtOrganisasi;
-    public TextView txtKegiatan;
+    public TextView txtNama, txtOrganisasi, txtKegiatan, txtJamMulai, txtJamAkhir;
+
 
     private ItemClickListener itemClickListener;
     public MenuViewHolder(View itemView) {
@@ -25,6 +24,8 @@ public class MenuViewHolder extends RecyclerView.ViewHolder implements View.OnCl
         txtNama = (TextView)itemView.findViewById(R.id.txt_namalengkap);
         txtKegiatan = (TextView)itemView.findViewById(R.id.txt_kegiatan);
         txtOrganisasi = (TextView)itemView.findViewById(R.id.txt_organisasi);
+        txtJamMulai = (TextView)itemView.findViewById(R.id.txt_jam_awal);
+        txtJamAkhir = (TextView)itemView.findViewById(R.id.txt_jam_akhir);
 
         itemView.setOnClickListener(this);
     }

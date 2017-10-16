@@ -13,4 +13,3 @@ public class booking_fragment extends AppCompatActivity {
         setContentView(R.layout.activity_booking_fragment);
     }
 }
-t
