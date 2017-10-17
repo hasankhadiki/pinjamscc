@@ -26,7 +26,8 @@
             android:inputType="number"
             app:met_baseColor="@color/colorPrimaryDark"
             app:met_floatingLabel="highlight"
-            app:met_maxCharacters="16"
+            android:maxLength="14"
+            app:met_maxCharacters="14"
             app:met_primaryColor="@color/colorPrimaryDark"
             app:met_singleLineEllipsis="true"
             />

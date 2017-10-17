@@ -18,7 +18,6 @@
         </activity>
         <activity android:name=".app.SignIn" />
         <activity android:name=".app.SignUp" />
-        <activity android:name=".app.booking_fragment" />
         <activity
             android:name=".Booking"
             android:label="@string/title_activity_booking"

@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
@@ -17,7 +16,6 @@ import com.google.firebase.database.ValueEventListener;
 import com.rengwuxian.materialedittext.MaterialEditText;
 
 import studio.tehhutan.pinjamscc.Booking;
-import studio.tehhutan.pinjamscc.Common.Common;
 import studio.tehhutan.pinjamscc.R;
 import studio.tehhutan.pinjamscc.model.User;
 
@@ -60,7 +58,7 @@ public class SignIn extends AppCompatActivity {
                           if (user.getPassword().equals(editPassword.getText().toString())) {
 //                              Toast.makeText(SignIn.this, "Berhasil Masuk", Toast.LENGTH_SHORT).show();
                               Intent bookingIntent = new Intent(SignIn.this, Booking.class);
-                              Common.currentUser = user;
+
                               startActivity(bookingIntent);
                               finish();
                           } else {

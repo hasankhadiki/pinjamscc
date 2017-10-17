@@ -14,6 +14,15 @@ public class BookingList {
     public BookingList() {
     }
 
+    public BookingList(String departemen, String kegiatan, String nama, String jamMulai, String jamAkhir) {
+
+        Departemen = departemen;
+        Kegiatan = kegiatan;
+        Nama = nama;
+        JamMulai = jamMulai;
+        JamAkhir = jamAkhir;
+    }
+
     public String getDepartemen() {
         return Departemen;
     }
@@ -54,12 +63,5 @@ public class BookingList {
         JamAkhir = jamAkhir;
     }
 
-    public BookingList(String departemen, String kegiatan, String nama, String jamMulai, String jamAkhir) {
 
-        Departemen = departemen;
-        Kegiatan = kegiatan;
-        Nama = nama;
-        JamMulai = jamMulai;
-        JamAkhir = jamAkhir;
-    }
 }

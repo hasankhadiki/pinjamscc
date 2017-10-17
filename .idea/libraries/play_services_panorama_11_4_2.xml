@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="play-services-panorama-11.4.2">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.2.aar/dccc087b48f536f620faedd7e905ba66/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.2.aar/dccc087b48f536f620faedd7e905ba66/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.2.aar/12851790f1e7f4254eb8a26f81d5ff8c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.2.aar/12851790f1e7f4254eb8a26f81d5ff8c/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

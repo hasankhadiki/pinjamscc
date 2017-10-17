@@ -24,8 +24,8 @@ public class MenuViewHolder extends RecyclerView.ViewHolder implements View.OnCl
         txtNama = (TextView)itemView.findViewById(R.id.txt_namalengkap);
         txtKegiatan = (TextView)itemView.findViewById(R.id.txt_kegiatan);
         txtOrganisasi = (TextView)itemView.findViewById(R.id.txt_organisasi);
-        txtJamMulai = (TextView)itemView.findViewById(R.id.txt_jam_awal);
-        txtJamAkhir = (TextView)itemView.findViewById(R.id.txt_jam_akhir);
+        txtJamMulai = (TextView)itemView.findViewById(R.id.txt_jammulai);
+        txtJamAkhir = (TextView)itemView.findViewById(R.id.txt_jamakhir);
 
         itemView.setOnClickListener(this);
     }
