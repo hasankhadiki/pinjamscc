@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "615271335959",
+    "firebase_url": "https://pinjamscc.firebaseio.com",
+    "project_id": "pinjamscc",
+    "storage_bucket": "pinjamscc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615271335959:android:621351e3f13ba391",
+        "android_client_info": {
+          "package_name": "studio.tehhutan.pinjamscc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615271335959-ddakg9c0j7lpqg702v73r0a8qulae94q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "studio.tehhutan.pinjamscc",
+            "certificate_hash": "f392d8569d055e1586e443507b8f902c8ddf7b2f"
+          }
+        },
+        {
+          "client_id": "615271335959-3pbfs0mlnpfp7ud0lgpkqdbqsv7g5rcs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOOdpIFslMBfBQwSEcetzGSYhQjZBUN5A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615271335959-3pbfs0mlnpfp7ud0lgpkqdbqsv7g5rcs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
