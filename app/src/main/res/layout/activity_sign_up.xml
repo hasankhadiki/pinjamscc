@@ -27,7 +27,7 @@
             app:met_floatingLabel="highlight"
             app:met_maxCharacters="14"
             android:maxLength="14"
-            
+
             app:met_primaryColor="@color/colorPrimaryDark"
             app:met_singleLineEllipsis="true"
             />

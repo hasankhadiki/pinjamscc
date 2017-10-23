@@ -14,11 +14,11 @@ public class BookingList {
     public BookingList() {
     }
 
-    public BookingList(String departemen, String kegiatan, String nama, String jamMulai, String jamAkhir) {
+    public BookingList(String departemen,  String nama, String kegiatan, String jamMulai, String jamAkhir) {
 
         Departemen = departemen;
-        Kegiatan = kegiatan;
         Nama = nama;
+        Kegiatan = kegiatan;
         JamMulai = jamMulai;
         JamAkhir = jamAkhir;
     }

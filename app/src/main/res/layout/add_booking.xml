@@ -42,7 +42,6 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
         android:inputType="text"
         app:met_baseColor="@color/colorPrimaryDark"
         app:met_floatingLabel="highlight"
-        app:met_maxCharacters="16"
         app:met_primaryColor="@color/colorPrimaryDark"
         app:met_singleLineEllipsis="true"
         />
